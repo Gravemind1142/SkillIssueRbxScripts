@@ -1,4 +1,5 @@
 --!strict
+--# type=mod
 
 --// SkillIssue.Index
 --// Written by F_ortitude 2022
