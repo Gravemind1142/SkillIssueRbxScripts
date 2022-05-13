@@ -93,8 +93,8 @@ function module.GetMostCommonGroupIdFromPlayerList(playerList: {Player}): number
 				groupCount[groupId] = 0
 			end
 			groupCount[groupId] += 1
-			if isPrimary then -- primary groups contribute 3 instead of 1 towards getting the most common group id
-				groupCount[groupId] += 2
+			if isPrimary then -- primary groups contribute 1.1 instead of 1 towards getting the most common group id
+				groupCount[groupId] += 0.1
 			end
 		end
 	end
