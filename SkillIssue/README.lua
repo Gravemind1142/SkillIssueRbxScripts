@@ -27,7 +27,11 @@ An automated skill rating system for clans
 2. Change the settings in the SkillIssue.Config ModuleScript
 	- Set TOKEN to the token sent to your DMs
 	- Set TEAM_1 to the Team object of the base's defending team
+		- If your base has multiple teams representing one team, use an array of teams, 
+		  e.g. {game.Teams.TeamA, game.Teams.TeamB}
 	- Set TEAM_2 to the Team object of the base's raiding team
+		- If your base has multiple teams representing one team, use an array of teams, 
+		  e.g. {game.Teams.TeamA, game.Teams.TeamB}
 	- Change GetKillsAndDeathsFromPlayer function to return the kills and deaths stats from a given player. Use 
 	  leaderstats if your base uses the default roblox leaderboard logic to store stats, or change this if you use a
 	  custom way to manage stats.
